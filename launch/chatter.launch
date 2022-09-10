@@ -1,0 +1,4 @@
+<launch>
+  <node pkg="rob301_demos" name="listener" type="listener.py" output="screen"></node>
+  <node pkg="rob301_demos" name="talker" type="talker_publisher.py" output="log" required="true"></node>
+</launch>
